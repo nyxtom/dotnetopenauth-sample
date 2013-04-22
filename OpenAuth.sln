@@ -1,0 +1,32 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenAuth.Web", "OpenAuth\OpenAuth.Web.csproj", "{A4090629-70E2-471E-A13D-B66BF6E330C8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOpenAuth.AspNet", "DotNetOpenAuth\src\DotNetOpenAuth.AspNet\DotNetOpenAuth.AspNet.csproj", "{51835086-9611-4C53-819B-F2D5C9320873}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DotNetOpenAuth.Core", "DotNetOpenAuth\src\DotNetOpenAuth.Core\DotNetOpenAuth.Core.csproj", "{60426312-6AE5-4835-8667-37EDEA670222}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{51835086-9611-4C53-819B-F2D5C9320873}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51835086-9611-4C53-819B-F2D5C9320873}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51835086-9611-4C53-819B-F2D5C9320873}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51835086-9611-4C53-819B-F2D5C9320873}.Release|Any CPU.Build.0 = Release|Any CPU
+		{60426312-6AE5-4835-8667-37EDEA670222}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{60426312-6AE5-4835-8667-37EDEA670222}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{60426312-6AE5-4835-8667-37EDEA670222}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{60426312-6AE5-4835-8667-37EDEA670222}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A4090629-70E2-471E-A13D-B66BF6E330C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A4090629-70E2-471E-A13D-B66BF6E330C8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A4090629-70E2-471E-A13D-B66BF6E330C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A4090629-70E2-471E-A13D-B66BF6E330C8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = OpenAuth\OpenAuth.Web.csproj
+	EndGlobalSection
+EndGlobal
